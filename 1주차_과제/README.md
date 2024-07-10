@@ -9,5 +9,5 @@
 - Debeaver 설치 및 DB Connection
 - Spring MVC 환경설정 & API PING
 - datasource & mybatis 연동
-<img src="https://github.com/pia01190/comento-bootcamp/assets/90251939/d757b07b-ef5b-46ea-9551-e7faf5624dfd" width="200" height="100"/>
-<img src="https://github.com/pia01190/comento-bootcamp/assets/90251939/36bf472f-1738-4519-a8f4-a0e77ab2b801" width="850" height="100"/>
+<img src="https://github.com/pia01190/comento-bootcamp/assets/90251939/4995b6db-2af5-4f4e-b061-bd52bb7cf926" width="200" height="100"/>
+<img src="https://github.com/pia01190/comento-bootcamp/assets/90251939/df8cb4bc-d9a5-4672-976b-6e2cefb672f9" width="850" height="100"/>
