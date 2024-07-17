@@ -6,22 +6,24 @@
 <br>
 
 ## Rest API
-# Rest란?
+#### Rest란?
 - Representational State Transfer의 약자로 웹 서비스 아키텍처 스타일의 일종
 - 클라이언트와 서버 간의 통신을 단순화하고 확장 가능하게 만들어주는 원칙과 패턴을 정의
 - 자원(Resource) : URL(URI : Uniform Resource Identifier : 자원을 식별하기 위한 문자열의 구성)
+
   행위(Verb) : Http Method(GET, POST, PUT, DELETE 등)
+  
   표현(Representations) : HTTP Message, JSON, XML, RSS 등
 
 <br>
 
-# API란?
+#### API란?
 - Application Programming Interface의 약자로 소프트웨어 애플리케이션 간의 상호작용을 정의하고 지원하는 인터페이스
 - 애플리케이션이 서로 데이터를 주고받고 기능을 사용할 수 있도록 도와줌
 
 <br>
 
-# REST API란?
+#### REST API란?
 - REST 아키텍처 원칙을 따르는 웹 API
 - 클라이언트는 HTTP를 통해 서버의 자원에 접근하고 서버는 클라이언트의 요청에 따라 자원의 표현을 제공하거나 작업을 수행
 
@@ -36,7 +38,7 @@
 
 <br>
 
-# REST API 설계 규칙
+#### REST API 설계 규칙
 - 명확한 계층 구조 : 슬래시(/) 구분자는 자원의 계층 관계를 나타내는 데 사용
 - 일관된 표기법 : URI는 소문자 사용하며 언더바(_) 대신 하이픈(-)을 사용
 - 파일 확장자 제외 : URI에 파일 확장자를 포함하지 않으며 대신 Accept 헤더를 사용하여 응답 형식을 지정
@@ -46,13 +48,13 @@
 <br>
 
 ## HTTP 통신
-# HTTP란?
+#### HTTP란?
 - Hypertext Transfer Protocol의 약자로 웹 상에서 데이터를 주고받기 위한 프로토콜
 - 클라이언트와 서버 간의 통신을 가능하게 하며 웹 브라우저와 웹 서버 사이의 데이터 전송 방식을 정의
 
 <br>
 
-# HTTP 요청 메서드
+#### HTTP 요청 메서드
 - GET : 데이터를 조회할 때 사용하는 메서드
 - POST : 데이터를 생성할 때 사용하는 메서드
 - PUT : 데이터를 업데이트 또는 생성할 때 사용하는 메서드
@@ -60,7 +62,7 @@
 
 <br>
 
-# HTTP 요청과 응답 과정
+#### HTTP 요청과 응답 과정
 - 요청 준비 : 클라이언트는 HTTP 메서드(GET, POST, PUT, DELETE 등)와 요청 URL을 지정하여 서버에게 데이터를 요청
 - 요청 전송 : 클라이언트는 준비된 요청을 서버로 전송하고 필요한 경우 요청 헤더에 추가 정보를 포함
 - 서버 처리 : 서버는 요청을 받고 요청된 작업(데이터 조회, 생성, 업데이트, 삭제 등)을 수행하여 처리 결과를 준비
