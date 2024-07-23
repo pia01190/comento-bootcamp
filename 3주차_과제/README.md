@@ -10,7 +10,7 @@
 <br>
 (dependencies - lombok, Spring web, spring boot devTools)
 <br>
-<img src="https://github.com/user-attachments/assets/dc17a81e-3d7c-40bf-aa7c-28d097b5f27d" width="450" height="350"/>
+<img src="https://github.com/user-attachments/assets/dc17a81e-3d7c-40bf-aa7c-28d097b5f27d" width="600" height="350"/>
 
 <br>
 <br>
@@ -29,7 +29,7 @@
 
 ## 2. 통계 API(SW활용현황)을 위한 DB, TABLE 생성
 - debeaver 이용하여 TABLE 생성
-<img src="https://github.com/user-attachments/assets/891cb510-9aaa-411b-984a-20edb4de7e76" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/891cb510-9aaa-411b-984a-20edb4de7e76" width="600" height="350"/>
 
 <br>
 <br>
