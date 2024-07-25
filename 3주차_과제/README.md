@@ -54,3 +54,54 @@
 <br>
 
 ## 4. SW활용 현황 통계 API 구축을 위한 SQL 작성
+- 월별 접속자 수
+
+    SELECT SUBSTR(date, 1, 6) AS month, SUM(visitor_count) AS visitors
+    FROM visitors
+    WHERE SUBSTR(date, 1, 6) = '202406'
+    GROUP BY month;
+
+<br>
+
+- 일자별 접속자 수
+
+    SELECT CASE
+        WHEN DATE_FORMAT(date, '%Y%m%d') = '20240601' THEN '조회된 날짜'
+        ELSE '다른 날짜'
+        END AS date_label, visitor_count AS visitors
+    FROM visitors
+    WHERE DATE_FORMAT(date, '%Y%m%d') = '20240601';
+
+<br>
+
+- 평균 하루 로그인 수
+
+    SELECT
+        :days AS days,
+        ROUND(SUM(login_count) / COUNT(DISTINCT login_date), 2) AS avgDailyLogins
+    FROM logins
+    WHERE login_date >= DATE_SUB(CURDATE(), INTERVAL :days DAY);
+
+<br>
+
+- 휴일을 제외한 로그인 수
+
+    SELECT SUM(login_count) AS excludeHolidayLogins
+    FROM logins
+    WHERE login_date NOT IN (
+        SELECT holiday_date FROM holidays
+    ) UNION SELECT 0 AS excludeHolidayLogins
+    WHERE NOT EXISTS (
+        SELECT 1 FROM logins WHERE login_date NOT IN (SELECT holiday_date FROM holidays)
+    );
+
+<br>
+
+- 부서별 월별 로그인 
+
+    SELECT department, SUBSTR(login_date, 1, 6) AS month,
+        SUM(login_count) AS departmentLogins
+    FROM logins
+    WHERE SUBSTR(login_date, 1, 6) = '202406'
+    GROUP BY department, month;
+  
