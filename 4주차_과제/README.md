@@ -1,4 +1,4 @@
-![월별 접속자 수](https://github.com/user-attachments/assets/7af792ef-629d-4f07-9db1-7e28351323c1)## [4주차 과제]([https://github.com/pia01190/comento-bootcamp/tree/main/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C))
+[4주차 과제]([https://github.com/pia01190/comento-bootcamp/tree/main/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C))
 **개발 완성**
 - API 개발 (코드 작성)
 - API 가이드 문서 작성 (README)
@@ -11,6 +11,7 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Request Parameters
+<br>
 |Name|Type|Description|Mandatory|Note|
 |:--|:--|:--|:--|:--|
 |year|String|조회할 연도 마지막 두 자리|Yes|ex) 20|
@@ -18,6 +19,7 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Response Parameters
+<br>
 |Name|Type|Description|
 |:--|:--|:--|
 |yearMonth|String|조회한 연도와 월|
@@ -25,7 +27,7 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="200" height="120"/>
 
 <br>
 <br>
@@ -36,6 +38,7 @@ http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Request Parameters
+<br>
 |Name|Type|Description|Mandatory|Note|
 |:--|:--|:--|:--|:--|
 |year|String|조회할 연도 마지막 두 자리|Yes|ex) 20|
@@ -44,6 +47,7 @@ http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Response Parameters
+<br>
 |Name|Type|Description|
 |:--|:--|:--|
 |yearMonth|String|조회한 연도, 월, 일|
@@ -51,7 +55,7 @@ http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/d4caf8de-ecd9-409b-8909-8330f65eafcf" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/d4caf8de-ecd9-409b-8909-8330f65eafcf" width="200" height="120"/>
 
 <br>
 <br>
@@ -61,6 +65,7 @@ http://localhost:8031/api/v1/visitors/{month}/{day}
 http://localhost:8031/api/v1/avg-logins/{year}/{month}
 <br>
 - Request Parameters
+<br>
 |Name|Type|Description|Mandatory|Note|
 |:--|:--|:--|:--|:--|
 |year|String|조회할 연도 마지막 두 자리|Yes|ex) 20|
@@ -68,13 +73,14 @@ http://localhost:8031/api/v1/avg-logins/{year}/{month}
 <br>
 
 - Response Parameters
+<br>
 |Name|Type|Description|
 |:--|:--|:--|
 |avgDayCnt|Double|평균 하루 로그인 수|
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/1210ae05-b820-4927-8ff2-4d49e4b9fee0" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/1210ae05-b820-4927-8ff2-4d49e4b9fee0" width="200" height="120"/>
 
 <br>
 <br>
@@ -85,6 +91,7 @@ http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Request Parameters
+<br>
 |Name|Type|Description|Mandatory|Note|
 |:--|:--|:--|:--|:--|
 |year|String|조회할 연도 마지막 두 자리|Yes|ex) 20|
@@ -92,13 +99,14 @@ http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Response Parameters
+<br>
 |Name|Type|Description|
 |:--|:--|:--|
 |totCnt|Int|휴일을 제외한 로그인 수|
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="200" height="120"/>
 
 <br>
 <br>
@@ -109,6 +117,7 @@ http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Request Parameters
+<br>
 |Name|Type|Description|Mandatory|Note|
 |:--|:--|:--|:--|:--|
 |year|String|조회할 연도 마지막 두 자리|Yes|ex) 20|
@@ -116,6 +125,7 @@ http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Response Parameters
+<br>
 |Name|Type|Description|
 |:--|:--|:--|
 |departmentName|String|부서명|
@@ -124,4 +134,4 @@ http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="200" height="100"/>
+<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="200" height="120"/>
