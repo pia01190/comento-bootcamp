@@ -1,4 +1,4 @@
-[4주차 과제]([https://github.com/pia01190/comento-bootcamp/tree/main/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C))
+## [4주차 과제]([https://github.com/pia01190/comento-bootcamp/tree/main/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C))
 **개발 완성**
 - API 개발 (코드 작성)
 - API 가이드 문서 작성 (README)
@@ -25,6 +25,13 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 |yearMonth|String|조회한 연도와 월|
 |totCnt|Int|월별 접속자 수|
 <br>
+
+| 제목 | 내용 | 비고 |
+|---|:---:|---:|
+| 제목1 | 내용1 | 비고1 |
+| 제목2 | 내용2 | 비고2 |
+| 제목3 | 내용3 | 비고3 |
+| 제목4 | 내용4 | 비고4 |
 
 - Response Body
 <img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="200" height="120"/>
