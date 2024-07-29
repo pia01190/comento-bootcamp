@@ -12,14 +12,14 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 
 - Request Parameters
 | Name | Type | Description | Mandatory | Note |
-|:---|:---|:---|
+|---|---|---|---|---|
 | year | String | 조회할 연도 마지막 두 자리 | Yes | ex) 20 |
 | month | String | 조회할 월 | Yes | ex) 06 |
 <br>
 
 - Response Parameters
 | Name | Type | Description |
-|:---|:---|:---|
+|---|---|---|
 | yearMonth | String | 조회한 연도와 월 |
 | totCnt | Int | 월별 접속자 수 |
 <br>
