@@ -7,7 +7,8 @@
 
 ## 1. 월별 접속자 수
 - 요청 URL
-ex) http://localhost:8031/api/v1/visitors/{year}/{month}
+
+http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Request Parameters
@@ -36,7 +37,8 @@ ex) http://localhost:8031/api/v1/visitors/{year}/{month}
 
 ## 2. 일자별 접속자 수
 - 요청 URL
-ex) http://localhost:8031/api/v1/visitors/{month}/{day}
+
+http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Request Parameters
@@ -66,7 +68,8 @@ ex) http://localhost:8031/api/v1/visitors/{month}/{day}
 
 ## 3. 평균 하루 로그인 수
 - 요청 URL
-ex) http://localhost:8031/api/v1/avg-logins/{year}/{month}
+
+http://localhost:8031/api/v1/avg-logins/{year}/{month}
 <br>
 
 - Request Parameters
@@ -94,7 +97,8 @@ ex) http://localhost:8031/api/v1/avg-logins/{year}/{month}
 
 ## 4. 휴일을 제외한 로그인 수
 - 요청 URL
-ex) http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
+
+http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Request Parameters
@@ -115,14 +119,15 @@ ex) http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="250" height="100"/>
+<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="280" height="100"/>
 
 <br>
 <br>
 
 ## 5. 부서별 월별 로그인 수
 - 요청 URL
-ex) http://localhost:8031/api/v1/department-logins/{year}/{month}
+
+http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Request Parameters
