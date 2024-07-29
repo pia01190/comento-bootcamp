@@ -1,4 +1,4 @@
-## [4주차 과제]([https://github.com/pia01190/comento-bootcamp/tree/main/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C))
+## [4주차 과제](https://github.com/pia01190/comento-bootcamp/tree/main/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C)
 **개발 완성**
 - API 개발 (코드 작성)
 - API 가이드 문서 작성 (README)
@@ -7,8 +7,7 @@
 
 ## 1. 월별 접속자 수
 - 요청 URL
-<br>
-http://localhost:8031/api/v1/visitors/{year}/{month}
+ex) http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Request Parameters
@@ -30,15 +29,14 @@ http://localhost:8031/api/v1/visitors/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="230" height="100"/>
+<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="250" height="100"/>
 
 <br>
 <br>
 
 ## 2. 일자별 접속자 수
 - 요청 URL
-<br>
-http://localhost:8031/api/v1/visitors/{month}/{day}
+ex) http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Request Parameters
@@ -61,15 +59,14 @@ http://localhost:8031/api/v1/visitors/{month}/{day}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/d4caf8de-ecd9-409b-8909-8330f65eafcf" width="230" height="100"/>
+<img src="https://github.com/user-attachments/assets/d4caf8de-ecd9-409b-8909-8330f65eafcf" width="250" height="100"/>
 
 <br>
 <br>
 
 ## 3. 평균 하루 로그인 수
 - 요청 URL
-<br>
-http://localhost:8031/api/v1/avg-logins/{year}/{month}
+ex) http://localhost:8031/api/v1/avg-logins/{year}/{month}
 <br>
 
 - Request Parameters
@@ -90,15 +87,14 @@ http://localhost:8031/api/v1/avg-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/1210ae05-b820-4927-8ff2-4d49e4b9fee0" width="230" height="100"/>
+<img src="https://github.com/user-attachments/assets/1210ae05-b820-4927-8ff2-4d49e4b9fee0" width="250" height="100"/>
 
 <br>
 <br>
 
 ## 4. 휴일을 제외한 로그인 수
 - 요청 URL
-<br>
-http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
+ex) http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Request Parameters
@@ -119,15 +115,14 @@ http://localhost:8031/api/v1/avg-logins/non-holiday-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="230" height="100"/>
+<img src="https://github.com/user-attachments/assets/869139a5-dbbf-4899-bb5b-f842f3442dd9" width="250" height="100"/>
 
 <br>
 <br>
 
 ## 5. 부서별 월별 로그인 수
 - 요청 URL
-<br>
-http://localhost:8031/api/v1/department-logins/{year}/{month}
+ex) http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Request Parameters
@@ -150,4 +145,4 @@ http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="230" height="100"/>
+<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="250" height="100"/>
