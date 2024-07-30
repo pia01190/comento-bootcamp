@@ -155,4 +155,5 @@ http://localhost:8031/api/v1/department-logins/{year}/{month}
 <br>
 
 - Response Body
-<img src="https://github.com/user-attachments/assets/affff0bf-034b-43e1-b9ef-b20a971311a0" width="250" height="100"/>
+<img src="https://github.com/user-attachments/assets/09ad2635-009b-4ebc-883a-6650008e0a2b" width="250" height="100"/>
+
